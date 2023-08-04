@@ -18,7 +18,7 @@ MYMODCFG(net.rusjj.gtasa.moresettings, GTA:SA More Settings, 1.3, RusJJ)
 NEEDGAME(com.rockstargames.gtasa)
 BEGIN_DEPLIST()
     ADD_DEPENDENCY_VER(net.rusjj.aml, 1.0.2.1)
-    ADD_DEPENDENCY_VER(net.rusjj.gtasa.utils, 1.4)
+    ADD_DEPENDENCY_VER(net.rusjj.gtasa.utils, 1.3)
 END_DEPLIST()
 
 /* SA Utils */
@@ -28,7 +28,7 @@ ISAUtils* sautils = nullptr;
 /* Saves */
 uintptr_t pGTASA = 0;
 void* hGTASA = NULL;
-bool bSAMPMode = false; // Some settings are not safe for SAMP
+bool bSAMPMode = true; // Some settings are not safe for SAMP
 
 /* Config */
 ConfigEntry* pCfgDebugFPS;
