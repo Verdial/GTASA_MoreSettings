@@ -15,10 +15,9 @@ namespace fs = std::filesystem;
 #endif
 
 MYMODCFG(net.rusjj.gtasa.moresettings, GTA:SA More Settings, 1.3, RusJJ)
-NEEDGAME(ru.unisamp_mobile.game)
 BEGIN_DEPLIST()
     ADD_DEPENDENCY_VER(net.rusjj.aml, 1.0.2.1)
-    ADD_DEPENDENCY_VER(net.rusjj.gtasa.utils, 1.3)
+    ADD_DEPENDENCY_VER(net.rusjj.gtasa.utils, 1.3.1)
 END_DEPLIST()
 
 /* SA Utils */
